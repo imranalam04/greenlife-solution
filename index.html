@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenLife Solutions</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/your-fontawesome-kit.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#home">GreenLife Solutions</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/plasticwaste.jpg"
+                class="d-block w-100 img-fluid"
+                alt="Eco-friendly Products"
+                style="background-position: center"
+              />
+              <div class="carousel-caption">
+                <h1>Sustainable Living, Made Easy</h1>
+                <p>Discover our eco-friendly products for a greener tomorrow</p>
+                <a href="#products" class="btn btn-success btn-lg">Shop Now</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/ecofriendly.jpg"
+                class="d-block w-100 img-fluid"
+                alt="Reduce Plastic Waste"
+              />
+              <div class="carousel-caption">
+                <h1>Reduce Plastic Waste</h1>
+                <p>Join us in our mission to create a plastic-free world</p>
+                <a href="#products" class="btn btn-success btn-lg"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/ecoproduct.jpg"
+                class="d-block w-100 img-fluid"
+                alt="Eco-friendly Lifestyle"
+              />
+              <div class="carousel-caption">
+                <h1>Embrace an Eco-friendly Lifestyle</h1>
+                <p>Small changes can make a big difference</p>
+                <a href="#about" class="btn btn-success btn-lg">Our Mission</a>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="about" class="about py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-4">About Us</h2>
+          <p class="text-center" style="font-size: larger;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            At GreenLife Solutions, we're committed to providing sustainable
+            alternatives for everyday products. Our mission is to make
+            eco-friendly living accessible and enjoyable for everyone.
+          </p>
+        </div>
+      </section>
+
+      <section id="products" class="products py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Our Products</h2>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img
+                  src="./assets/brush.jpg"
+                  class="card-img-top"
+                  alt="Bamboo Toothbrush"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">Bamboo Toothbrush</h3>
+                  <p class="card-text">Biodegradable handle, soft bristles</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img
+                  src="./assets/bottle.jpg"
+                  class="card-img-top"
+                  alt="Reusable Water Bottle"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">Reusable Water Bottle</h3>
+                  <p class="card-text">Stainless steel, BPA-free</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img
+                  src="./assets/cottontote.jpg"
+                  class="card-img-top"
+                  alt="Organic Cotton Tote"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">Organic Cotton Tote</h3>
+                  <p class="card-text">Durable, washable, eco-friendly</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-4">Get in Touch</h2>
+          <form id="contact-form" class="mx-auto" style="max-width: 500px">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-success w-100">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <p>&copy; 2024 GreenLife Solutions. All rights reserved.</p>
+        <div class="social-icons">
+          <a href="#" class="text-white me-3" aria-label="Facebook"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="#" class="text-white me-3" aria-label="Twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" class="text-white" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
